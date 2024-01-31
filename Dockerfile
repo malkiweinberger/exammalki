@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 80
 
-entryPoint ["python",  "convert_image_to_pdf"]
+entryPoint ["python",  "convert_image_to_pdf.py"]
