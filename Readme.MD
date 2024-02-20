@@ -2,4 +2,4 @@
 docker build -t convertor .
 
 ## run
-docker run -v $PWD/images:/app/images -v $PWD/output:/app/output convertor images
+docker run -v $PWD/images:/app/images -v $PWD/output:/app/output -e pdfname=myconvert convertor images
